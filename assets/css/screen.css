@@ -23,7 +23,7 @@
    ========================================================================== */
 
 @import url(normalize.css);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
 
 
 
@@ -351,7 +351,7 @@ margin on the iframe, cause it breaks stuff. */
     transition: all ease 0.3s;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
-    color: black;
+    color: white;
 }
 #header-arrow:hover {
     opacity: 0.9;
@@ -420,12 +420,12 @@ a.fa {
 /* The details of your blog. Defined in ghost/settings/ */
 .blog-title {
     margin: 10px 0 10px 0;
-    font-size: 5rem;
+    font-size: 7rem;
     letter-spacing: -1px;
-    font-weight: bold;
+    font-weight: 400;
     font-family: 'Open Sans', sans-serif;
     text-shadow: 0 1px 6px rgba(0,0,0,0.1);
-    color: black;
+    color: white;
 }
 
 .blog-description {
@@ -437,7 +437,7 @@ a.fa {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0;
     text-shadow: 0 1px 3px rgba(0,0,0,0.15);
-    color: black;
+    color: white;
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
@@ -570,6 +570,11 @@ a.fa {
 .post-template .blog-title {
     display: inline-block;
     padding: 2.5rem 0;
+    color: black;
+}
+
+.post-template .blog-description {
+    color: black;
 }
 
 /* Keep large images within the bounds of the post-width */
