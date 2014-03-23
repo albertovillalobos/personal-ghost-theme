@@ -114,6 +114,7 @@ body {
 
 h1, h2, h3,
 h4, h5, h6 {
+    font-weight: 300;
     text-rendering: optimizeLegibility;
     line-height: 1;
     margin-top: 0;
@@ -472,10 +473,12 @@ a.fa {
 }
 
 .post-title {
+    font-weight: 300;
     margin:0;
 }
 
 .post-title a {
+    font-weight: 300;
     text-decoration: none;
 }
 
